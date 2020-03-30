@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nnhome"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/nnproduct"
+            android:title="Our Products" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/nnservices"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/nncontect"
+            android:title="Contact Our Representative" />
+        <item
+            android:id="@+id/nav_certification"
+            android:icon="@drawable/nncirtification"
+            android:title="Certification" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/nnclint"
+            android:title="Our Clients" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/nnnews"
+            android:title="News Events" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/nncall"
+            android:title="Call Back Request" />
+    </group>
+
+</menu>

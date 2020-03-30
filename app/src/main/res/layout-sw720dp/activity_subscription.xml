@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_80"
+        android:background="@color/blue"
+
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_30" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_16"
+        android:src="@drawable/zeco" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_6"
+        android:gravity="center"
+        android:text="Zeco Aircon Ltd"
+        android:textColor="#4A16DA"
+        android:textSize="@dimen/size_24" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_8"
+        android:layout_marginRight="@dimen/size_8"
+        android:layout_marginBottom="@dimen/size_10"
+        android:layout_marginTop="@dimen/size_50"
+        android:paddingBottom="@dimen/size_10">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/surround"
+            android:hint="Name"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/size_5"
+            android:paddingTop="@dimen/size_20"
+            android:paddingBottom="@dimen/size_20"
+            android:textColor="@color/balck"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/size_16" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_8"
+        android:layout_marginRight="@dimen/size_8"
+        android:layout_marginBottom="@dimen/size_10"
+
+        android:paddingBottom="@dimen/size_10">
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/surround"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/size_5"
+            android:paddingTop="@dimen/size_20"
+            android:paddingBottom="@dimen/size_20"
+            android:textColor="@color/balck"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/size_16" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_8"
+        android:layout_marginRight="@dimen/size_8"
+        android:layout_marginBottom="@dimen/size_10"
+
+        android:paddingBottom="@dimen/size_10">
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/surround"
+            android:hint="Phone"
+            android:inputType="number"
+            android:paddingLeft="@dimen/size_5"
+            android:paddingTop="@dimen/size_20"
+            android:paddingBottom="@dimen/size_20"
+            android:textColor="@color/balck"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/size_16" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_8"
+        android:layout_marginRight="@dimen/size_8"
+        android:paddingBottom="@dimen/size_10">
+
+        <EditText
+            android:id="@+id/et_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/surround"
+            android:hint="Company"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/size_5"
+            android:paddingTop="@dimen/size_20"
+            android:paddingBottom="@dimen/size_20"
+            android:textColor="@color/balck"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/size_16" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_30"
+        android:text="Subscribe"
+        android:textColor="#4A16DA"
+        android:textSize="@dimen/size_30" />
+
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_16"
+        android:text="Skip"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/size_24" />
+
+
+</LinearLayout>
+
+
